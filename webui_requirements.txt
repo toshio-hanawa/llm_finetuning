@@ -1,0 +1,30 @@
+# LLM比較WebUI 依存関係
+# Core FastAPI & Streamlit
+fastapi==0.118.0
+uvicorn[standard]==0.37.0
+streamlit==1.50.0
+
+# HTTP クライアント
+httpx==0.28.1
+requests==2.32.5
+
+# ML/AI ライブラリ
+torch>=2.8.0
+transformers>=4.56.0
+peft>=0.17.0
+datasets>=4.1.0
+accelerate>=1.10.0
+
+# 可視化
+plotly>=6.3.0
+seaborn>=0.13.0
+matplotlib>=3.10.0
+
+# データ処理
+pandas>=2.3.0
+numpy>=2.3.0
+
+# その他
+python-multipart==0.0.20
+pydantic>=2.11.0
+typing-extensions>=4.15.0
